@@ -1,0 +1,43 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Conv_YandexSansText-Bold";
+  src: url("fonts/YandexSansText-Bold.eot");
+  src: local("☺"), url("fonts/YandexSansText-Bold.woff") format("woff"), url("fonts/YandexSansText-Bold.ttf") format("truetype"), url("fonts/YandexSansText-Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Conv_YandexSansText-Medium";
+  src: url("fonts/YandexSansText-Medium.eot");
+  src: local("☺"), url("fonts/YandexSansText-Medium.woff") format("woff"), url("fonts/YandexSansText-Medium.ttf") format("truetype"), url("fonts/YandexSansText-Medium.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Conv_YandexSansText-Regular";
+  src: url("fonts/YandexSansText-Regular.eot");
+  src: local("☺"), url("fonts/YandexSansText-Regular.woff") format("woff"), url("fonts/YandexSansText-Regular.ttf") format("truetype"), url("fonts/YandexSansText-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+header {
+  background: url(../img/background.png) center/cover no-repeat;
+  height: 100vh;
+}
