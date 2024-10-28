@@ -195,3 +195,55 @@ body{
 .section{
 	margin-top: 120px;
 }
+
+.opportunities{
+	margin-top: 60px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 270px 270px;
+	grid-gap: 20px;
+
+	&__item{
+		background: url(../img/oppo-1.png);
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+		&:last-child{
+			background: url(../img/oppo-3.png);
+			grid-row-start: 1;
+			grid-row-end: 3;
+			grid-column: 2;
+		}
+
+		&-number{
+			font-size: 18px;
+			font-weight: 500;
+			line-height: 1.3;
+			margin: 15px 0 0 15px;
+			color: var(--color-black);
+		}
+
+		&-text-block{
+			margin: 0 0 20px 20px;
+		}
+
+		&-title{
+			font-family: 'Conv_YandexSansText-Medium', sans-serif;
+			font-size: 20px;
+			font-weight: 500;
+			line-height: 1.3;
+			max-width: 240px;
+			margin-bottom: 10px;
+			color: var(--color-black);
+		}
+
+		&-text{
+			font-size: 16px;
+			line-height: 1.4;
+			max-width: 485px;
+			color: var(--color-grey);
+		}
+	}
+}
+
